@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02DEBB07CE0FA53FFD49FABF /* libPods-modminnieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DCF2005BB8F5F8415BC9C6 /* libPods-modminnieUITests.a */; };
+		517C3CEC1EB5316F9A6C608F /* libPods-modminnieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC6858306BD699A28D79A0F /* libPods-modminnieTests.a */; };
+		8CD4DD977955B38186501936 /* libPods-modminnie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D637CE9B8AE2D04B752E098 /* libPods-modminnie.a */; };
 		A84548EF2280D50700B7AE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548EE2280D50700B7AE1B /* AppDelegate.m */; };
 		A84548F22280D50700B7AE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548F12280D50700B7AE1B /* ViewController.m */; };
 		A84548F52280D50700B7AE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84548F32280D50700B7AE1B /* Main.storyboard */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E7F1278CBEDBE949851586 /* Pods-modminnieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieTests/Pods-modminnieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0956F2955869043A21C29291 /* Pods-modminnie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnie.release.xcconfig"; path = "Pods/Target Support Files/Pods-modminnie/Pods-modminnie.release.xcconfig"; sourceTree = "<group>"; };
+		1D637CE9B8AE2D04B752E098 /* libPods-modminnie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-modminnie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC6858306BD699A28D79A0F /* libPods-modminnieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-modminnieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AFF70EFFA31E659BB17B50 /* Pods-modminnie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-modminnie/Pods-modminnie.debug.xcconfig"; sourceTree = "<group>"; };
+		849AF6D0D5DEF0B80DA9B9B1 /* Pods-modminnieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieUITests/Pods-modminnieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86BA8084903A5107DE32060D /* Pods-modminnieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieTests/Pods-modminnieTests.release.xcconfig"; sourceTree = "<group>"; };
 		A84548EA2280D50700B7AE1B /* modminnie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modminnie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84548ED2280D50700B7AE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A84548EE2280D50700B7AE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		A845490D2280D50A00B7AE1B /* modminnieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modminnieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84549112280D50A00B7AE1B /* modminnieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modminnieUITests.m; sourceTree = "<group>"; };
 		A84549132280D50A00B7AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DCF2005BB8F5F8415BC9C6 /* libPods-modminnieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-modminnieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E5AB71EB9E11C8C28480CC /* Pods-modminnieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieUITests/Pods-modminnieUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD4DD977955B38186501936 /* libPods-modminnie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517C3CEC1EB5316F9A6C608F /* libPods-modminnieTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DEBB07CE0FA53FFD49FABF /* libPods-modminnieUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F97D350853BEFE4FA149192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D637CE9B8AE2D04B752E098 /* libPods-modminnie.a */,
+				1EC6858306BD699A28D79A0F /* libPods-modminnieTests.a */,
+				C7DCF2005BB8F5F8415BC9C6 /* libPods-modminnieUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A84548E12280D50700B7AE1B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				A84549052280D50A00B7AE1B /* modminnieTests */,
 				A84549102280D50A00B7AE1B /* modminnieUITests */,
 				A84548EB2280D50700B7AE1B /* Products */,
+				C35DB4FFC1942CF1E09720FC /* Pods */,
+				2F97D350853BEFE4FA149192 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +159,19 @@
 			path = modminnieUITests;
 			sourceTree = "<group>";
 		};
+		C35DB4FFC1942CF1E09720FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39AFF70EFFA31E659BB17B50 /* Pods-modminnie.debug.xcconfig */,
+				0956F2955869043A21C29291 /* Pods-modminnie.release.xcconfig */,
+				06E7F1278CBEDBE949851586 /* Pods-modminnieTests.debug.xcconfig */,
+				86BA8084903A5107DE32060D /* Pods-modminnieTests.release.xcconfig */,
+				849AF6D0D5DEF0B80DA9B9B1 /* Pods-modminnieUITests.debug.xcconfig */,
+				E2E5AB71EB9E11C8C28480CC /* Pods-modminnieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A84549162280D50A00B7AE1B /* Build configuration list for PBXNativeTarget "modminnie" */;
 			buildPhases = (
+				6BADF90031541254BD3B0FA4 /* [CP] Check Pods Manifest.lock */,
 				A84548E62280D50700B7AE1B /* Sources */,
 				A84548E72280D50700B7AE1B /* Frameworks */,
 				A84548E82280D50700B7AE1B /* Resources */,
+				ED2E4EF57FB63C4BAA051ECD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A84549192280D50A00B7AE1B /* Build configuration list for PBXNativeTarget "modminnieTests" */;
 			buildPhases = (
+				D4E77EA3A6ED7D99601688B4 /* [CP] Check Pods Manifest.lock */,
 				A84548FE2280D50A00B7AE1B /* Sources */,
 				A84548FF2280D50A00B7AE1B /* Frameworks */,
 				A84549002280D50A00B7AE1B /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A845491C2280D50A00B7AE1B /* Build configuration list for PBXNativeTarget "modminnieUITests" */;
 			buildPhases = (
+				632C8C7FFD4DE4E66A72599E /* [CP] Check Pods Manifest.lock */,
 				A84549092280D50A00B7AE1B /* Sources */,
 				A845490A2280D50A00B7AE1B /* Frameworks */,
 				A845490B2280D50A00B7AE1B /* Resources */,
@@ -256,6 +300,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		632C8C7FFD4DE4E66A72599E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-modminnieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BADF90031541254BD3B0FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-modminnie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E77EA3A6ED7D99601688B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-modminnieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2E4EF57FB63C4BAA051ECD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-modminnie/Pods-modminnie-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-modminnie/Pods-modminnie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A84548E62280D50700B7AE1B /* Sources */ = {
@@ -433,9 +568,11 @@
 		};
 		A84549172280D50A00B7AE1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AFF70EFFA31E659BB17B50 /* Pods-modminnie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPY3ZP4FA;
 				INFOPLIST_FILE = modminnie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +586,11 @@
 		};
 		A84549182280D50A00B7AE1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0956F2955869043A21C29291 /* Pods-modminnie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPY3ZP4FA;
 				INFOPLIST_FILE = modminnie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +604,7 @@
 		};
 		A845491A2280D50A00B7AE1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E7F1278CBEDBE949851586 /* Pods-modminnieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +623,7 @@
 		};
 		A845491B2280D50A00B7AE1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BA8084903A5107DE32060D /* Pods-modminnieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +642,7 @@
 		};
 		A845491D2280D50A00B7AE1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849AF6D0D5DEF0B80DA9B9B1 /* Pods-modminnieUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = modminnieUITests/Info.plist;
@@ -518,6 +660,7 @@
 		};
 		A845491E2280D50A00B7AE1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E5AB71EB9E11C8C28480CC /* Pods-modminnieUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = modminnieUITests/Info.plist;
