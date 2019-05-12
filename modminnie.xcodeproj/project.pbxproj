@@ -10,10 +10,11 @@
 		02DEBB07CE0FA53FFD49FABF /* libPods-modminnieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DCF2005BB8F5F8415BC9C6 /* libPods-modminnieUITests.a */; };
 		517C3CEC1EB5316F9A6C608F /* libPods-modminnieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC6858306BD699A28D79A0F /* libPods-modminnieTests.a */; };
 		8CD4DD977955B38186501936 /* libPods-modminnie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D637CE9B8AE2D04B752E098 /* libPods-modminnie.a */; };
-		A8130B10228380A400FA3D97 /* contentCellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = A8130B0F228380A300FA3D97 /* contentCellHome.m */; };
 		A84548EF2280D50700B7AE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548EE2280D50700B7AE1B /* AppDelegate.m */; };
 		A84548F22280D50700B7AE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548F12280D50700B7AE1B /* ViewController.m */; };
+		A84548F52280D50700B7AE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84548F32280D50700B7AE1B /* Main.storyboard */; };
 		A84548F72280D50A00B7AE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84548F62280D50A00B7AE1B /* Assets.xcassets */; };
+		A84548FA2280D50A00B7AE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84548F82280D50A00B7AE1B /* LaunchScreen.storyboard */; };
 		A84548FD2280D50A00B7AE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548FC2280D50A00B7AE1B /* main.m */; };
 		A84549072280D50A00B7AE1B /* modminnieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84549062280D50A00B7AE1B /* modminnieTests.m */; };
 		A84549122280D50A00B7AE1B /* modminnieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84549112280D50A00B7AE1B /* modminnieUITests.m */; };
@@ -44,14 +45,14 @@
 		39AFF70EFFA31E659BB17B50 /* Pods-modminnie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-modminnie/Pods-modminnie.debug.xcconfig"; sourceTree = "<group>"; };
 		849AF6D0D5DEF0B80DA9B9B1 /* Pods-modminnieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieUITests/Pods-modminnieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		86BA8084903A5107DE32060D /* Pods-modminnieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieTests/Pods-modminnieTests.release.xcconfig"; sourceTree = "<group>"; };
-		A8130B0E228380A300FA3D97 /* contentCellHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contentCellHome.h; sourceTree = "<group>"; };
-		A8130B0F228380A300FA3D97 /* contentCellHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = contentCellHome.m; sourceTree = "<group>"; };
 		A84548EA2280D50700B7AE1B /* modminnie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modminnie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84548ED2280D50700B7AE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A84548EE2280D50700B7AE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A84548F02280D50700B7AE1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A84548F12280D50700B7AE1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A84548F42280D50700B7AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A84548F62280D50A00B7AE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A84548F92280D50A00B7AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A84548FB2280D50A00B7AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A84548FC2280D50A00B7AE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A84549022280D50A00B7AE1B /* modminnieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modminnieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,9 +132,9 @@
 				A84548EE2280D50700B7AE1B /* AppDelegate.m */,
 				A84548F02280D50700B7AE1B /* ViewController.h */,
 				A84548F12280D50700B7AE1B /* ViewController.m */,
-				A8130B0E228380A300FA3D97 /* contentCellHome.h */,
-				A8130B0F228380A300FA3D97 /* contentCellHome.m */,
+				A84548F32280D50700B7AE1B /* Main.storyboard */,
 				A84548F62280D50A00B7AE1B /* Assets.xcassets */,
+				A84548F82280D50A00B7AE1B /* LaunchScreen.storyboard */,
 				A84548FB2280D50A00B7AE1B /* Info.plist */,
 				A84548FC2280D50A00B7AE1B /* main.m */,
 			);
@@ -278,7 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84548FA2280D50A00B7AE1B /* LaunchScreen.storyboard in Resources */,
 				A84548F72280D50A00B7AE1B /* Assets.xcassets in Resources */,
+				A84548F52280D50700B7AE1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8130B10228380A400FA3D97 /* contentCellHome.m in Sources */,
 				A84548F22280D50700B7AE1B /* ViewController.m in Sources */,
 				A84548FD2280D50A00B7AE1B /* main.m in Sources */,
 				A84548EF2280D50700B7AE1B /* AppDelegate.m in Sources */,
@@ -431,6 +433,25 @@
 			targetProxy = A845490E2280D50A00B7AE1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A84548F32280D50700B7AE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84548F42280D50700B7AE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A84548F82280D50A00B7AE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84548F92280D50A00B7AE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A84549142280D50A00B7AE1B /* Debug */ = {

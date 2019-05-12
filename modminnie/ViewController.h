@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface ViewController : UIViewController
 
-@property(nonatomic,strong) NSString *cellID;
+
 @end
 
