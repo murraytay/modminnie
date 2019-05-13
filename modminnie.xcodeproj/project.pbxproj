@@ -11,13 +11,14 @@
 		517C3CEC1EB5316F9A6C608F /* libPods-modminnieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC6858306BD699A28D79A0F /* libPods-modminnieTests.a */; };
 		8CD4DD977955B38186501936 /* libPods-modminnie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D637CE9B8AE2D04B752E098 /* libPods-modminnie.a */; };
 		A84548EF2280D50700B7AE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548EE2280D50700B7AE1B /* AppDelegate.m */; };
-		A84548F22280D50700B7AE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548F12280D50700B7AE1B /* ViewController.m */; };
 		A84548F52280D50700B7AE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84548F32280D50700B7AE1B /* Main.storyboard */; };
 		A84548F72280D50A00B7AE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84548F62280D50A00B7AE1B /* Assets.xcassets */; };
 		A84548FA2280D50A00B7AE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84548F82280D50A00B7AE1B /* LaunchScreen.storyboard */; };
 		A84548FD2280D50A00B7AE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84548FC2280D50A00B7AE1B /* main.m */; };
 		A84549072280D50A00B7AE1B /* modminnieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84549062280D50A00B7AE1B /* modminnieTests.m */; };
 		A84549122280D50A00B7AE1B /* modminnieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84549112280D50A00B7AE1B /* modminnieUITests.m */; };
+		A8CB12C722887ADC00C43CE5 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12C622887ADC00C43CE5 /* Post.m */; };
+		A8CB12CD2288B31C00C43CE5 /* Login2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12CC2288B31C00C43CE5 /* Login2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +49,6 @@
 		A84548EA2280D50700B7AE1B /* modminnie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modminnie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84548ED2280D50700B7AE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A84548EE2280D50700B7AE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A84548F02280D50700B7AE1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A84548F12280D50700B7AE1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A84548F42280D50700B7AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A84548F62280D50A00B7AE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84548F92280D50A00B7AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +60,10 @@
 		A845490D2280D50A00B7AE1B /* modminnieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modminnieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84549112280D50A00B7AE1B /* modminnieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modminnieUITests.m; sourceTree = "<group>"; };
 		A84549132280D50A00B7AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CB12C522887ADC00C43CE5 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		A8CB12C622887ADC00C43CE5 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		A8CB12CB2288B31C00C43CE5 /* Login2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login2ViewController.h; sourceTree = "<group>"; };
+		A8CB12CC2288B31C00C43CE5 /* Login2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login2ViewController.m; sourceTree = "<group>"; };
 		C7DCF2005BB8F5F8415BC9C6 /* libPods-modminnieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-modminnieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E5AB71EB9E11C8C28480CC /* Pods-modminnieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieUITests/Pods-modminnieUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,13 +133,15 @@
 			children = (
 				A84548ED2280D50700B7AE1B /* AppDelegate.h */,
 				A84548EE2280D50700B7AE1B /* AppDelegate.m */,
-				A84548F02280D50700B7AE1B /* ViewController.h */,
-				A84548F12280D50700B7AE1B /* ViewController.m */,
 				A84548F32280D50700B7AE1B /* Main.storyboard */,
+				A8CB12CB2288B31C00C43CE5 /* Login2ViewController.h */,
+				A8CB12CC2288B31C00C43CE5 /* Login2ViewController.m */,
 				A84548F62280D50A00B7AE1B /* Assets.xcassets */,
 				A84548F82280D50A00B7AE1B /* LaunchScreen.storyboard */,
 				A84548FB2280D50A00B7AE1B /* Info.plist */,
 				A84548FC2280D50A00B7AE1B /* main.m */,
+				A8CB12C522887ADC00C43CE5 /* Post.h */,
+				A8CB12C622887ADC00C43CE5 /* Post.m */,
 			);
 			path = modminnie;
 			sourceTree = "<group>";
@@ -397,9 +402,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84548F22280D50700B7AE1B /* ViewController.m in Sources */,
 				A84548FD2280D50A00B7AE1B /* main.m in Sources */,
 				A84548EF2280D50700B7AE1B /* AppDelegate.m in Sources */,
+				A8CB12C722887ADC00C43CE5 /* Post.m in Sources */,
+				A8CB12CD2288B31C00C43CE5 /* Login2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
