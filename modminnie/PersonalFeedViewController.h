@@ -1,8 +1,8 @@
 //
-//  Login2ViewController.h
+//  PersonalFeedViewController.h
 //  modminnie
 //
-//  Created by Taylor Murray on 5/12/19.
+//  Created by Taylor Murray on 5/13/19.
 //  Copyright © 2019 Taylor Murray. All rights reserved.
 //
 
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Login2ViewController : UIViewController
--(void) loginUser;
+@interface PersonalFeedViewController : UIViewController
+
 @end
 
 NS_ASSUME_NONNULL_END

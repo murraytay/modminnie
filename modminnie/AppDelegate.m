@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Parse/Parse.h"
+#import "Login2ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,11 +21,15 @@
     // Override point for customization after application launch.
     ParseClientConfiguration *config = [ParseClientConfiguration   configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
         
-        configuration.applicationId = @"codepathInstagram";
-        configuration.server = @"http://codepathfbinstagram.herokuapp.com/parse";
+        configuration.applicationId = @"modminID";
+        configuration.server = @"https://modmin.herokuapp.com/parse";
     }];
     
     [Parse initializeWithConfiguration:config];
+    
+    
+    
+    
     return YES;
 }
 

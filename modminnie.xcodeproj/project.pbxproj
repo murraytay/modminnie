@@ -19,6 +19,11 @@
 		A84549122280D50A00B7AE1B /* modminnieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84549112280D50A00B7AE1B /* modminnieUITests.m */; };
 		A8CB12C722887ADC00C43CE5 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12C622887ADC00C43CE5 /* Post.m */; };
 		A8CB12CD2288B31C00C43CE5 /* Login2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12CC2288B31C00C43CE5 /* Login2ViewController.m */; };
+		A8CB12D02289B24B00C43CE5 /* PersonalFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12CF2289B24B00C43CE5 /* PersonalFeedViewController.m */; };
+		A8CB12D32289B65E00C43CE5 /* PostCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12D22289B65E00C43CE5 /* PostCollectionViewCell.m */; };
+		A8CB12D62289BF8A00C43CE5 /* CreateNewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12D52289BF8A00C43CE5 /* CreateNewPostViewController.m */; };
+		A8CB12D9228B1E8100C43CE5 /* DetailedReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12D8228B1E8100C43CE5 /* DetailedReviewViewController.m */; };
+		A8CB12E2228B913100C43CE5 /* Community2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CB12E1228B913100C43CE5 /* Community2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,16 @@
 		A8CB12C622887ADC00C43CE5 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		A8CB12CB2288B31C00C43CE5 /* Login2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login2ViewController.h; sourceTree = "<group>"; };
 		A8CB12CC2288B31C00C43CE5 /* Login2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login2ViewController.m; sourceTree = "<group>"; };
+		A8CB12CE2289B24B00C43CE5 /* PersonalFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalFeedViewController.h; sourceTree = "<group>"; };
+		A8CB12CF2289B24B00C43CE5 /* PersonalFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalFeedViewController.m; sourceTree = "<group>"; };
+		A8CB12D12289B65E00C43CE5 /* PostCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCollectionViewCell.h; sourceTree = "<group>"; };
+		A8CB12D22289B65E00C43CE5 /* PostCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostCollectionViewCell.m; sourceTree = "<group>"; };
+		A8CB12D42289BF8A00C43CE5 /* CreateNewPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateNewPostViewController.h; sourceTree = "<group>"; };
+		A8CB12D52289BF8A00C43CE5 /* CreateNewPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateNewPostViewController.m; sourceTree = "<group>"; };
+		A8CB12D7228B1E8100C43CE5 /* DetailedReviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedReviewViewController.h; sourceTree = "<group>"; };
+		A8CB12D8228B1E8100C43CE5 /* DetailedReviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedReviewViewController.m; sourceTree = "<group>"; };
+		A8CB12E0228B913100C43CE5 /* Community2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Community2ViewController.h; sourceTree = "<group>"; };
+		A8CB12E1228B913100C43CE5 /* Community2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Community2ViewController.m; sourceTree = "<group>"; };
 		C7DCF2005BB8F5F8415BC9C6 /* libPods-modminnieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-modminnieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E5AB71EB9E11C8C28480CC /* Pods-modminnieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-modminnieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-modminnieUITests/Pods-modminnieUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,12 +146,22 @@
 		A84548EC2280D50700B7AE1B /* modminnie */ = {
 			isa = PBXGroup;
 			children = (
+				A84548F32280D50700B7AE1B /* Main.storyboard */,
+				A8CB12E0228B913100C43CE5 /* Community2ViewController.h */,
+				A8CB12E1228B913100C43CE5 /* Community2ViewController.m */,
+				A8CB12D7228B1E8100C43CE5 /* DetailedReviewViewController.h */,
+				A8CB12D8228B1E8100C43CE5 /* DetailedReviewViewController.m */,
 				A84548ED2280D50700B7AE1B /* AppDelegate.h */,
 				A84548EE2280D50700B7AE1B /* AppDelegate.m */,
-				A84548F32280D50700B7AE1B /* Main.storyboard */,
+				A8CB12D42289BF8A00C43CE5 /* CreateNewPostViewController.h */,
+				A8CB12D52289BF8A00C43CE5 /* CreateNewPostViewController.m */,
+				A8CB12D12289B65E00C43CE5 /* PostCollectionViewCell.h */,
+				A8CB12D22289B65E00C43CE5 /* PostCollectionViewCell.m */,
 				A8CB12CB2288B31C00C43CE5 /* Login2ViewController.h */,
 				A8CB12CC2288B31C00C43CE5 /* Login2ViewController.m */,
 				A84548F62280D50A00B7AE1B /* Assets.xcassets */,
+				A8CB12CE2289B24B00C43CE5 /* PersonalFeedViewController.h */,
+				A8CB12CF2289B24B00C43CE5 /* PersonalFeedViewController.m */,
 				A84548F82280D50A00B7AE1B /* LaunchScreen.storyboard */,
 				A84548FB2280D50A00B7AE1B /* Info.plist */,
 				A84548FC2280D50A00B7AE1B /* main.m */,
@@ -404,8 +429,13 @@
 			files = (
 				A84548FD2280D50A00B7AE1B /* main.m in Sources */,
 				A84548EF2280D50700B7AE1B /* AppDelegate.m in Sources */,
+				A8CB12D32289B65E00C43CE5 /* PostCollectionViewCell.m in Sources */,
+				A8CB12D62289BF8A00C43CE5 /* CreateNewPostViewController.m in Sources */,
 				A8CB12C722887ADC00C43CE5 /* Post.m in Sources */,
 				A8CB12CD2288B31C00C43CE5 /* Login2ViewController.m in Sources */,
+				A8CB12D9228B1E8100C43CE5 /* DetailedReviewViewController.m in Sources */,
+				A8CB12E2228B913100C43CE5 /* Community2ViewController.m in Sources */,
+				A8CB12D02289B24B00C43CE5 /* PersonalFeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
