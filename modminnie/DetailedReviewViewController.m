@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.reviewLabel setText:self.post.review];
+    [self.reviewLabel setText:self.post.thoughts];
     [self.oneWordLabel setText:self.post.oneWordDescriptor];
     [self.typeOfMediaLabel setText:self.post.category];
     [self.gestureRecognizer addTarget:self action:@selector(swipeDown)];

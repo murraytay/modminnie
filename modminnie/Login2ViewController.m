@@ -7,7 +7,7 @@
 //
 
 #import "Login2ViewController.h"
-#import "Parse.h"
+//#import "Parse.h"
 
 @interface Login2ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *usernameField;

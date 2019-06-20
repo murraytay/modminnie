@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Parse.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Login2ViewController : UIViewController

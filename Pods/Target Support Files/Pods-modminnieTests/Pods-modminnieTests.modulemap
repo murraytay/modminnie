@@ -1,0 +1,6 @@
+framework module Pods_modminnieTests {
+  umbrella header "Pods-modminnieTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

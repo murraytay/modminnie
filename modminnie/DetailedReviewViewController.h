@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Parse.h>
+#import "Parse.h"
 #import "Post.h"
 NS_ASSUME_NONNULL_BEGIN
 

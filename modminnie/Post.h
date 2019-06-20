@@ -18,18 +18,21 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *userID;
 @property (nonatomic, strong) PFUser *author;
 
-@property (nonatomic, strong) NSString *oneWordDescriptor;
-@property (nonatomic, strong) NSString *review;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSDate *dateConsumed;
 @property (nonatomic, strong) NSString *category;
 
+@property (nonatomic, strong) NSString *oneWordDescriptor;
+@property (nonatomic, strong) NSString *thoughts;
+//@property (nonatomic, strong) NSArray *followUps;
+//@property (nonatomic, strong) NSArray *learned;
+//@property (nonatomic, strong) NSArray *questions;
+@property (nonatomic, strong) NSArray *tags;
 
-//@property (nonatomic, strong) PFFile *image;
-//@property (nonatomic, strong) NSNumber *likeCount;
-//@property (nonatomic, strong) NSNumber *commentCount;
 
-+ (void) postUserReview: ( NSString * _Nullable )review withOneWordDescriptor: ( NSString * _Nullable )oneWordDescriptor andCategory:(NSString * _Nullable)category withCompletion: (PFBooleanResultBlock  _Nullable)completion;
+//+ (void) postWithTitle: ( NSString * _Nullable )title withDate:(NSDate * _Nullable)date withCategory:(NSString * _Nullable)category withOneWordDescriptor: ( NSString * _Nullable )oneWordDescriptor  withThoughts:(NSString * _Nullable)thoughts withFollowUps:(NSArray * _Nullable)followUps withNotesLearned:(NSArray * _Nullable)learned withTags:(NSArray * _Nullable)tags withQuestions:(NSArray * _Nullable)questions withCompletion: (PFBooleanResultBlock  _Nullable)completion;
 
-
++ (void) postWithTitle: ( NSString * _Nullable )title withDate:(NSDate * _Nullable)date withCategory:(NSString * _Nullable)category withOneWordDescriptor: ( NSString * _Nullable )oneWordDescriptor  withThoughts:(NSString * _Nullable)thoughts withTags:(NSArray * _Nullable)tags withCompletion: (PFBooleanResultBlock  _Nullable)completion;
 
 @end
 
